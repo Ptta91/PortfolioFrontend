@@ -1,0 +1,25 @@
+{
+  "name": "portfoliofrontend",
+  "version": "1.0.0",
+  "description": "Repositorio para el frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ptta91/PortfolioFrontend.git"
+  },
+  "author": "Emanuel Panetta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ptta91/PortfolioFrontend/issues"
+  },
+  "homepage": "https://github.com/Ptta91/PortfolioFrontend#readme",
+  "dependencies": {
+    "boostrap": "^2.0.0",
+    "bootstrap": "^5.2.0"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
