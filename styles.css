@@ -10923,11 +10923,58 @@ textarea.form-control-lg {
   }
 }
 .logoAP {
-  height: 40px;
-  width: 50px;
+  height: 20px;
+  width: 25px;
 }
 
 .logoLI {
+  height: 25px;
+  width: 25px;
+}
+
+.toast {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.bannerImg {
+  background-image: url("./assets/images/BannerFondo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25vh;
+  width: 100vw;
+}
+@media (min-width: 992px) {
+  .bannerImg {
+    height: 30vh;
+  }
+}
+@media (min-width: 1200px) {
+  .bannerImg {
+    height: 35vh;
+  }
+}
+
+.logoFP {
   height: 40px;
   width: 40px;
+}
+@media (min-width: 768px) {
+  .logoFP {
+    height: 80px;
+    width: 80px;
+  }
+}
+@media (min-width: 992px) {
+  .logoFP {
+    height: 120px;
+    width: 120px;
+  }
+}
+@media (min-width: 1200px) {
+  .logoFP {
+    height: 160px;
+    width: 160px;
+  }
 }/*# sourceMappingURL=styles.css.map */

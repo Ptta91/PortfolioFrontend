@@ -17,35 +17,39 @@
     <!--Estilos-->
     <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
-  <body>
+  <body style="background-color: black">
     <!--Header-->
     <!--NavBar-->
     <section class="navBar bg-dark">
-      <div class="d-flex justify-content-between bg-dark" style="height: 60px">
-        <div class="d-flex flex-wrap align-items-center justify-content-start">
+      <div class="d-flex justify-content-between bg-dark">
+        <div
+          class="d-flex flex-wrap align-items-center justify-content-start m-1"
+        >
           <img
             src="./assets/images/Logo AP.png"
             alt="Logo Argentina Programa"
-            class="logoAP m-2"
+            class="logoAP"
           />
-          <div class="m-2 text-white">#Yo Programo</div>
+          <span class="m-1 text-white">#Yo Programo</span>
         </div>
-        <div class="d-flex flex-wrap align-items-center justify-content-end">
+        <div
+          class="d-flex flex-wrap align-items-center justify-content-end m-1"
+        >
           <a href="#"
             ><img
               src="./assets/images/linkedinlogo.jpg"
               alt="Logo Linkedin"
-              class="logoLI m-2"
+              class="logoLI"
           /></a>
           <button
             type="button"
-            class="btn btn-outline-light m-2"
+            class="btn btn-outline-light btn-sm m-1"
             data-bs-toggle="modal"
             data-bs-target="#loginModal"
           >
             Iniciar Sesión
           </button>
-          <button type="button" class="btn btn-outline-light m-2 d-none">
+          <button type="button" class="btn btn-outline-light btn-sm m-1 d-none">
             Cerrar Sesión
           </button>
         </div>
@@ -111,7 +115,7 @@
         aria-atomic="true"
         style="position: relative; min-height: 200px"
       >
-        <div class="toast" style="position: absolute; bottom: 0; right: 0">
+        <div class="toast">
           <div class="toast-header">
             <strong class="mr-auto">Aviso</strong>
             <small>Sesión iniciada</small>
@@ -133,7 +137,7 @@
         aria-atomic="true"
         style="position: relative; min-height: 200px"
       >
-        <div class="toast" style="position: absolute; bottom: 0; right: 0">
+        <div class="toast">
           <div class="toast-header">
             <strong class="mr-auto">Aviso</strong>
             <small>Sesión finalizada</small>
@@ -151,8 +155,21 @@
       </div>
     </section>
     <!--Banner-->
-    <section class="banner bg-dark">
-      <img src="./assets/images/fondoBanner.jpg" class="img-fluid" alt="banner"></div>
+    <section class="banner bg-dark bg-image">
+      <div class="d-flex justify-content-between align-items-center bannerImg">
+        <div
+          class="d-flex flex-wrap align-items-center justify-content-start m-1"
+        >
+          <img
+            class="rounded-circle logoFP"
+            src="./assets/images/fotoperfil.jpg"
+            alt="Foto de Perfil"
+          />
+        </div>
+        <div>
+          
+        </div>
+      </div>
     </section>
 
     <!--Sections-->
@@ -168,9 +185,9 @@
 
     <!--Footer-->
     <section class="footer bg-dark">
-        <footer class="container-fluid text-center mt-2 mb-2 text-white">
-            &copy; Emanuel Panetta
-        </footer>
+      <footer class="container-fluid text-center mt-2 mb-2 text-white">
+        &copy; Emanuel Panetta
+      </footer>
     </section>
 
     <!--Scripts-->
