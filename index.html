@@ -1,53 +1,179 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
+  <head>
     <!--Metadatos-->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta name="description" content="Portfolio Web">
-    <meta name="author" content="Emanuel Panetta">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <meta name="description" content="Portfolio Web" />
+    <meta name="author" content="Emanuel Panetta" />
 
     <!--Título-->
     <title>Mi Portfolio</title>
 
     <!--Estilos-->
-    <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
     <!--Header-->
-        <!--NavBar-->
-        <div class="d-flex justify-content-between bg-dark" style="height:50px;">
-            <div class="d-flex flex-wrap align-items-center justify-content-start">
-                <img src="./assets/images/Logo AP.png" alt="Logo Argentina Programa" class="logoAP m-2">
-                <div class="m-2 text-white">#Yo Programo</div>
-            </div>
-            <div class="d-flex flex-wrap align-items-center justify-content-end">
-                <img src="./assets/images/linkedinlogo.jpg" alt="Logo Linkedin" class="logoLI m-2">
-                <button type="button" class="btn btn-outline-light m-2">Login</button>
-                <button type="button" class="btn btn-outline-light m-2 d-none">Logout</button>
-            </div>      
+    <!--NavBar-->
+    <section class="navBar bg-dark">
+      <div class="d-flex justify-content-between bg-dark" style="height: 60px">
+        <div class="d-flex flex-wrap align-items-center justify-content-start">
+          <img
+            src="./assets/images/Logo AP.png"
+            alt="Logo Argentina Programa"
+            class="logoAP m-2"
+          />
+          <div class="m-2 text-white">#Yo Programo</div>
         </div>
-        
-        <!--Banner-->
+        <div class="d-flex flex-wrap align-items-center justify-content-end">
+          <a href="#"
+            ><img
+              src="./assets/images/linkedinlogo.jpg"
+              alt="Logo Linkedin"
+              class="logoLI m-2"
+          /></a>
+          <button
+            type="button"
+            class="btn btn-outline-light m-2"
+            data-bs-toggle="modal"
+            data-bs-target="#loginModal"
+          >
+            Iniciar Sesión
+          </button>
+          <button type="button" class="btn btn-outline-light m-2 d-none">
+            Cerrar Sesión
+          </button>
+        </div>
+      </div>
+      <!-- Login Modal -->
+      <div
+        class="modal fade"
+        id="loginModal"
+        tabindex="-1"
+        aria-labelledby="Login"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="Login">Iniciar Sesión</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body p-5 pt-0">
+              <form class="">
+                <div class="form-floating m-3">
+                  <input
+                    type="user"
+                    class="form-control rounded-3"
+                    id="floatingInput"
+                    placeholder="usuario"
+                  />
+                  <label for="floatingInput">Usuario</label>
+                </div>
+                <div class="form-floating m-3">
+                  <input
+                    type="password"
+                    class="form-control rounded-3"
+                    id="floatingPassword"
+                    placeholder="contraseña"
+                  />
+                  <label for="floatingPassword">Contraseña</label>
+                </div>
+                <button
+                  class="w-100 mb-2 btn btn-lg rounded-3 btn-primary"
+                  type="submit"
+                >
+                  Iniciar Sesión
+                </button>
+                <small class="text-muted"
+                  >Debe iniciar sesión para ingresar en Modo
+                  Administrador.</small
+                >
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Toasts-->
+      <div
+        class="d-none"
+        aria-live="polite"
+        aria-atomic="true"
+        style="position: relative; min-height: 200px"
+      >
+        <div class="toast" style="position: absolute; bottom: 0; right: 0">
+          <div class="toast-header">
+            <strong class="mr-auto">Aviso</strong>
+            <small>Sesión iniciada</small>
+            <button
+              type="button"
+              class="ml-2 mb-1 close"
+              data-dismiss="toast"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="toast-body">Has ingresado al Modo Administrador.</div>
+        </div>
+      </div>
+      <div
+        class="d-none"
+        aria-live="polite"
+        aria-atomic="true"
+        style="position: relative; min-height: 200px"
+      >
+        <div class="toast" style="position: absolute; bottom: 0; right: 0">
+          <div class="toast-header">
+            <strong class="mr-auto">Aviso</strong>
+            <small>Sesión finalizada</small>
+            <button
+              type="button"
+              class="ml-2 mb-1 close"
+              data-dismiss="toast"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="toast-body">Has salido del Modo Administrador.</div>
+        </div>
+      </div>
+    </section>
+    <!--Banner-->
+    <section class="banner bg-dark">
+      <img src="./assets/images/fondoBanner.jpg" class="img-fluid" alt="banner"></div>
+    </section>
 
     <!--Sections-->
-        <!--Acerca de-->
+    <!--Acerca de-->
 
-        <!--Experiencia-->
+    <!--Experiencia-->
 
-        <!--Educación-->
+    <!--Educación-->
 
-        <!--Habilidades-->
+    <!--Habilidades-->
 
-        <!--Proyectos-->
+    <!--Proyectos-->
 
     <!--Footer-->
-    <footer class="bg-light container-fluid text-center mt-2 mb-2">
-        &copy; Emanuel Panetta
-    </footer>
+    <section class="footer bg-dark">
+        <footer class="container-fluid text-center mt-2 mb-2 text-white">
+            &copy; Emanuel Panetta
+        </footer>
+    </section>
 
     <!--Scripts-->
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-</body>
+  </body>
 </html>
