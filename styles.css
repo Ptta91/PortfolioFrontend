@@ -10921,4 +10921,13 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+.logoAP {
+  height: 40px;
+  width: 50px;
+}
+
+.logoLI {
+  height: 40px;
+  width: 40px;
 }/*# sourceMappingURL=styles.css.map */
