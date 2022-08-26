@@ -1,3 +1,9 @@
+$primary: black;
+/*accordion styles*/
+$accordion-color: white;
+$accordion-button-bg: black;
+$accordion-padding-y: 2rem;
+
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 
 .logoAP{
@@ -38,4 +44,16 @@
     @include media-breakpoint-up(xl) {
         height:160px;
         width:160px;}
+}
+
+.nombrePerfil{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.etiquetaPerfil{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    font-style: italic;
 }

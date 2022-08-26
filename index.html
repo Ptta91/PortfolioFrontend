@@ -10,10 +10,8 @@
     />
     <meta name="description" content="Portfolio Web" />
     <meta name="author" content="Emanuel Panetta" />
-
     <!--Título-->
     <title>Mi Portfolio</title>
-
     <!--Estilos-->
     <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
@@ -94,7 +92,7 @@
                   <label for="floatingPassword">Contraseña</label>
                 </div>
                 <button
-                  class="w-100 mb-2 btn btn-lg rounded-3 btn-primary"
+                  class="w-100 mb-2 btn btn-lg rounded-3 btn-outline-light btn-dark"
                   type="submit"
                 >
                   Iniciar Sesión
@@ -161,18 +159,89 @@
           class="d-flex flex-wrap align-items-center justify-content-start m-1"
         >
           <img
-            class="rounded-circle logoFP"
+            class="float rounded-circle logoFP"
             src="./assets/images/fotoperfil.jpg"
             alt="Foto de Perfil"
           />
-        </div>
-        <div>
-          
+          <div class="col">
+            <div class="row">
+              <p></p>
+            </div>
+            <div class="row">
+              <p></p>
+            </div>
+            <div class="row">
+              <span class="text-dark nombrePerfil">Emanuel Panetta</span>
+            </div>
+            <div class="row">
+              <p class="etiquetaPerfil">Desarrollador Web Full Stack Jr.</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-
     <!--Sections-->
+    <div class="container">
+    <div class="col-8">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Acerca de
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              tarjeta
+            </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Experiencias
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              tarjeta
+            </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Estudios
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              Tarjeta
+            </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+              Proyectos
+            </button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              Tarjeta
+            </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+              Skills
+            </button>
+          </h2>
+          <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              Tarjeta
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
     <!--Acerca de-->
 
     <!--Experiencia-->
@@ -185,11 +254,10 @@
 
     <!--Footer-->
     <section class="footer bg-dark">
-      <footer class="container-fluid text-center mt-2 mb-2 text-white">
+      <footer class="container text-center mt-2 mb-2 text-white">
         &copy; Emanuel Panetta
       </footer>
     </section>
-
     <!--Scripts-->
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
