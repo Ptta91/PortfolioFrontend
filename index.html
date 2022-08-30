@@ -111,93 +111,106 @@
     </div>
   </section>
   <!--Sections-->
-  <div class="container-lg d-flex align-items-center justify-content-center">
-    <div class="col-10">
+  <div class="container-xl d-flex align-items-center justify-content-center">
+    <div class="col-12">
       <div class="accordion accordion-flush" id="accordionFlushExample">
         <!--Acerca de-->
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingOne">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-              Acerca de
-            </button>
-          </h2>
-          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
-            data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">
-              tarjeta-textos
-            </div>
-          </div>
-          <!--Experiencia-->
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingTwo">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                Experiencias
-              </button>
-            </h2>
-            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">
-                tarjeta-textos
-              </div>
-            </div>
-            <!--Educación-->
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                  Estudios
-                </button>
-              </h2>
-              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-                data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">
-                  Tarjeta-lista
-                </div>
-              </div>
-              <!--Proyectos-->
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingFour">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                    Proyectos
-                  </button>
-                </h2>
-                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
-                  data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">
-                    Tarjeta-lista/enlaces
-                  </div>
-                </div>
-                <!--Habilidades-->
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingFive">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                      Skills
-                    </button>
-                  </h2>
-                  <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
-                    data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">
-                      Tarjeta-progress
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Información Personal</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
           </div>
         </div>
-        <!--Footer-->
-        <section class="footer bg-dark">
-          <footer
-            class="container-lg d-flex justify-content-center align-items-center text-center mt-2 mb-2 text-white col-4">
-            &copy; Emanuel Panetta
-          </footer>
-        </section>
-        <!--Scripts-->
-        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <!--Experiencia-->
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Experiencia</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+          </ul>
+        </div>
+        <!--Educación-->
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Educación</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+          </ul>
+        </div>
+        <!--Habilidades-->
+        <div class="card"">
+          <div class=" card-body">
+          <h4 class="card-title">Habilidades</h4>
+        
+                                                    <div class="card proj-progress-card">
+                                                            <div class="row">
+                                                                <div class="col-xl-3 col-md-6">
+                                                                    <h6>Completed Work</h6>
+                                                                    <h5 class="m-b-30 f-w-700">532<span class="text-c-green m-l-10">+1.69%</span></h5>
+                                                                    <div class="progress">
+                                                                        <div class="progress-bar bg-c-red" style="width:25%"></div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xl-3 col-md-6">
+                                                                    <h6>Incomplete Work</h6>
+                                                                    <h5 class="m-b-30 f-w-700">4,569<span class="text-c-red m-l-10">-0.5%</span></h5>
+                                                                    <div class="progress">
+                                                                        <div class="progress-bar bg-c-blue" style="width:65%"></div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xl-3 col-md-6">
+                                                                    <h6>Ongoing Work</h6>
+                                                                    <h5 class="m-b-30 f-w-700">89%<span class="text-c-green m-l-10">+0.99%</span></h5>
+                                                                    <div class="progress">
+                                                                        <div class="progress-bar bg-c-green" style="width:85%"></div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xl-3 col-md-6">
+                                                                    <h6>Ongoing Digs</h6>
+                                                                    <h5 class="m-b-30 f-w-700">365<span class="text-c-green m-l-10">+0.35%</span></h5>
+                                                                    <div class="progress">
+                                                                        <div class="progress-bar bg-c-yellow" style="width:45%"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+            
+          </div>
+        </div>
+      </div>
+      <!--Proyectos-->
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Proyectos</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">An item</li>
+          <li class="list-group-item">A second item</li>
+          <li class="list-group-item">A third item</li>
+        </ul>
+      </div>
+      <!--Footer-->
+      <section class="footer bg-dark">
+        <footer
+          class="container-lg d-flex justify-content-center align-items-center text-center mt-2 mb-2 text-white col-4">
+          &copy; Emanuel Panetta
+        </footer>
+      </section>
+      <!--Scripts-->
+      <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>

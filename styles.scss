@@ -1,5 +1,3 @@
-$primary: black;
-
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 
 body{
@@ -56,4 +54,96 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
     font-style: italic;
+}
+
+.card {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+}
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    margin-bottom: 1rem;
+}
+
+/*progress bar */
+.text-c-green {
+    color: #2ed8b6;
+}
+
+.m-l-10 {
+    margin-left: 10px;
+}
+
+.proj-progress-card .progress {
+    height: 6px;
+    overflow: visible;
+    margin-bottom: 10px;
+}
+
+.proj-progress-card .progress .progress-bar {
+    position: relative;
+}
+
+.progress .progress-bar {
+    height: 100%;
+    color: inherit;
+}
+
+.bg-c-red {
+    background: #FF5370;
+}
+
+.proj-progress-card .progress .progress-bar.bg-c-red:after {
+    border: 3px solid #FF5370;
+}
+
+.proj-progress-card .progress .progress-bar:after {
+    content: "";
+    background: #fff;
+    position: absolute;
+    right: -6px;
+    top: -4px;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.bg-c-blue {
+    background: #4099ff;
+}
+
+.proj-progress-card .progress .progress-bar.bg-c-blue:after {
+    border: 3px solid #4099ff;
+}
+
+.proj-progress-card .progress .progress-bar.bg-c-green:after {
+    border: 3px solid #2ed8b6;
+}
+
+.bg-c-green {
+    background: #2ed8b6;
+}
+
+.bg-c-yellow {
+    background: #FFB64D;
+}
+
+.proj-progress-card .progress .progress-bar.bg-c-yellow:after {
+    border: 3px solid #FFB64D;
+}
+
+.m-b-30 {
+    margin-bottom: 30px;
+}
+
+.text-c-red {
+    color: #FF5370;
 }
