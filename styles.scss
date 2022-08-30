@@ -1,10 +1,10 @@
 $primary: black;
-/*accordion styles*/
-$accordion-color: white;
-$accordion-button-bg: black;
-$accordion-padding-y: 2rem;
 
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+body{
+    background-color: black;
+}
 
 .logoAP{
     height:20px;
